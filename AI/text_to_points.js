@@ -74,7 +74,7 @@ export const textToPoints = async (userInput) => {
             responseContent = responseContent.split("```json")[1].split("```")[0].trim();
         }
 
-        // Return the generated response
+        // Return the generated response2
         return JSON.parse(responseContent);
     } catch (error) {
         console.error("Error with OpenAI API:", error);
